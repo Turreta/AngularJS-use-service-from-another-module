@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="myapp">
+    <head>
+        <meta charset="utf-8">
+        <title>Use service from another module</title>
+        <meta name="description" content="Use service from another module">        
+        <script src="js/angular.min.js"></script>
+        <script src="js/myapp.js"></script>
+    </head>
+    <body>
+        <div style="border-style: dotted" data-ng-controller="mainController">
+            <h1>a = {{a}} and b = {{b}}</h1>
+            <ul>
+                <li>{{a}} + {{b}} = {{sum}}</li>
+                <li>{{a}} / {{b}} = {{dividend}}</li>
+                <li>{{a}} * {{b}} = {{product}}</li>
+                <li>{{a}} - {{b}} = {{diff}}</li>
+            </ul>            
+        </div>        
+    </body>
+</html>
